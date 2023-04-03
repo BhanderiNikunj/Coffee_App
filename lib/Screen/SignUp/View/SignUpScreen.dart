@@ -60,7 +60,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               top: 290,
               left: 170,
               child: Text(
-                "Log In",
+                "Sign Up",
                 style: GoogleFonts.libreFranklin(
                   color: Color(0xff491716),
                   fontWeight: FontWeight.bold,
@@ -128,17 +128,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                     hintText: "* * * * * * * *",
                   ),
-                ),
-              ),
-            ),
-            Positioned(
-              top: 520,
-              left: 20,
-              child: Text(
-                "Forgot Password?",
-                style: GoogleFonts.libreFranklin(
-                  color: Color(0xff491716),
-                  fontSize: 20,
                 ),
               ),
             ),
